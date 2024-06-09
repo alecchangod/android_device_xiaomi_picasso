@@ -18,9 +18,6 @@ TARGET_SCREEN_DENSITY := 440
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_monet
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_monet
 
-# Kernel
-TARGET_KERNEL_CONFIG += monet.config
-
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
