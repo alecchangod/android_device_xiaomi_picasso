@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Fingerprint
-TARGET_HAS_UDFPS := true
-
 # Inherit from sm7250-common
 $(call inherit-product, device/xiaomi/sm7250-common/lito.mk)
 
